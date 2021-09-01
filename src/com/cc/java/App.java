@@ -1,8 +1,10 @@
 package com.cc.java;
 public class App {
     public static void main(String[] args) {
-      // to do
-    
+     
+    Bird bird =  new Bird();
+    ausgabe(bird.fly());
+    ausgabe(bird.hasFeathers());
 
     }
 
